@@ -1,0 +1,7 @@
+tflite==2.4.0
+pandas==1.3.5
+numpy==1.21.6
+joblib==1.1.0
+boto3
+botocore
+scikit-learn==1.0.1
