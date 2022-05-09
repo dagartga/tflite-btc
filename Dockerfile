@@ -1,5 +1,7 @@
 FROM public.ecr.aws/lambda/python:3.7
 
+COPY requirements.txt requirements.txt
+
 RUN pip3 install --upgrade pip
 
 RUN pip install -r requirements.txt
