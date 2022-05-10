@@ -1,6 +1,7 @@
 FROM public.ecr.aws/lambda/python:3.7
 
 COPY requirements.txt requirements.txt
+COPY scaler.save scaler.save
 
 RUN pip3 install --upgrade pip
 
